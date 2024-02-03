@@ -1,0 +1,163 @@
+body {
+  font-family: Arial;
+}
+p {
+  margin: 0;
+}
+.lightblue {
+  background-color: lightblue;
+}
+.lightpink {
+  background-color: lightpink;
+}
+
+.flexbox-a {
+  display: flex;
+  margin-bottom: 30px;
+}
+.item1 {
+  width: 200px;
+}
+.item2 {
+  width: 75px;
+}
+
+.flexbox-b{
+  display: flex;
+}
+.item-b1 {
+  width: 50px;
+}
+.item-b2 {
+  flex: 1;
+}
+.item-b3{
+  width: 75px;
+}
+
+.flexbox-c {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.flexbox-d {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  border: 1px solid rgb(150, 150, 150);
+}
+
+.flexbox-e {
+  margin-top: 30px;
+  width: 300px;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 6px;
+}
+.flexbox-e-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+}
+.notice {
+  background-color: rgb(49, 109, 245);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.flexbox-g {
+  margin-top: 30px;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 6px;
+  padding: 10px 12px;
+}
+.flexbox-g-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.infos {
+  flex: 1;
+}
+.name {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.handle {
+  color: rgb(150, 150, 150);
+  margin-bottom: 5px;
+}
+.category {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+}
+.follow-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;  
+}
+
+.flexbox-f {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+.home {
+  width: 100px;
+  font-weight: bold;
+}
+.search {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 0;
+  max-width: 500px;
+  /* when the input is focused, some browsers apply a default 
+  focus style, which might include a border.
+  To prevent the default focus styles, you can use the outline
+  property in your CSS.  
+  Setting outline: none; will remove the default focus outline. However, it's important to note that removing the focus outline can make your website less accessible, as it affects keyboard navigation. Users who navigate through your site using a keyboard may have difficulty identifying which element is currently focused. Therefore, it's recommended to provide a clear and visible focus indicator for better accessibility.
+  If you want to customize the focus styles, you can use the :focus pseudo-class to define your own styles:*/
+  outline: none;
+}
+.search:focus {
+  /* Add your custom focus styles here */
+  border: 1px solid rgb(21, 1, 52);
+  box-shadow: 0 0 5px rgba(21, 1, 52 0.5);
+}
+.download {
+  margin-left: 50px;
+  color: white;
+  background-color: rgb(120, 82, 178);
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+

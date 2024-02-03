@@ -1,0 +1,9 @@
+void element: not need a closing tag
+<link> -> void element
+<link rel="stylesheet" href="buttons.css"> 	-> rel: relation
+
+special charactor: html entity
+
+div: division
+
+fr: free space
