@@ -1,0 +1,151 @@
+body {
+  margin-bottom: 5000px;
+  font-family: Arial;
+}
+p {
+  margin: 0;
+}
+
+.position-a {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.position-b {
+  background-color: green;
+  color: white;
+  position: fixed;
+  top:0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+}
+
+.position-c {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.position-d-overlay {
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-d {
+  background-color: white;
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.title-d {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.content-d {
+  margin-bottom: 12px;
+}
+
+.position-e-header {
+  background-color: lightgoldenrodyellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.left-section-e {
+  display: flex;
+  align-items: center;
+}
+.profile-image-e {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.profile-e {
+  font-weight: bold;
+}
+.right-section-e button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.add-friend-e {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  margin-right: 3px;
+}
+.message-e {
+  background-color: rgb(230, 230, 230);;
+}
+
+.profiles-f {
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  padding-top: 15px;
+}
+.profile-image-f {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.infos-f {
+  background-color: rgb(55, 55, 55);;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 70px;
+  width: 150px;
+  padding: 15px;
+}
+.header-f {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.name-f {
+  color: rgb(232, 229, 229);
+  font-size: 14px;
+}
+.create-new-f {
+  color : rgb(150, 150, 150);
+  font-size: 25px;
+  cursor: pointer;
+}
+.channel-f {
+  color : rgb(150, 150, 150);
+  margin-bottom: 16px;
+  cursor: pointer;
+}
