@@ -3,6 +3,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  z-index: 100;
+}
+
+header img {
+  cursor: pointer;
 }
 
 .left-section {
@@ -39,6 +50,19 @@ header {
 .search-bar::placeholder {
   font-size: 16px;
 }
+
+.search-button-container {
+  position: relative;
+}
+.search-hint {
+  position: absolute;
+  top: 55px;
+  padding: 8px 8px;
+  background-color: gray;
+  color: white;
+  border-radius: 2px;
+}
+
 .search-button {
   height: 40px;
   width: 66px;
@@ -75,6 +99,20 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200,0,0);
+  color: white;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 50%;
 }
 
 .upload-icon,
