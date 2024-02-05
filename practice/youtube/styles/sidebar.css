@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border-radius: 10px;
 }
 .sidebar-link:hover {
   background-color: rgb(235, 235, 235);
@@ -26,4 +27,22 @@
 .sidebar-link div {
   font-size: 10px;
   margin-top: 4px;
+}
+
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 200px;
+  }
+  .sidebar-link {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  .sidebar-link img {
+    padding: 10px 18px;
+  }
+  .sidebar-link div {
+    font-size: 14px;
+  }
 }

@@ -51,7 +51,7 @@
         </div>
         <img
           class="current-user-picture"
-          src="channel-pictures/my-channel.jpeg"
+          src="channel-pictures/my-channel.jpg"
         />
       </div>
     </header>
@@ -87,22 +87,50 @@
       <section class="video-grid">
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" />
+            <a
+              href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+              target="_blank"
+            >
+              <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" />
+            </a>
             <div class="video-time">14:20</div>
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img
-                class="profile-picture"
-                src="./channel-pictures/channel-1.jpeg"
-              />
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/mkbhd" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="./channel-pictures/channel-1.jpeg"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="./channel-pictures/channel-1.jpeg"
+                  />
+                  <div class="channel-tooltip-infos">
+                    <p class="channel-tooltip-name">Marques Brownlee</p>
+                    <p class="channel-tooltip-stats">15M subscribers</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="video-info">
-              <p class="video-title">
-                Talking Tech and AI with Google CEO Sundar Pichai!
-              </p>
-              <p class="video-author">Marques Brownlee</p>
-              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+              <a
+                href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/mkbhd">
+                <p class="video-author">Marques Brownlee</p>
+              </a>
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                <p class="video-stats">3.4M views &#183; 6 months ago</p>
+              </a>
             </div>
           </div>
         </div>
@@ -113,10 +141,22 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img
-                class="profile-picture"
-                src="channel-pictures/channel-2.jpeg"
-              />
+              <div class="profile-picture-container">
+                <a href="https://youtube.com/c/markiplier" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/channel-2.jpeg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Markiplier
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      30M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="video-info">
               <p class="video-title">Try Not To Laugh Challenge #9</p>
