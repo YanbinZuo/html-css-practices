@@ -7,3 +7,8 @@ special charactor: html entity
 div: division
 
 fr: free space
+
+
+
+Q: why my image doesn't show up in React project?
+A: If you are using Create React App, make sure the image is placed in the public folder, and you are referencing it correctly. The public folder is served as the root, so your image path should be relative to this folder.
