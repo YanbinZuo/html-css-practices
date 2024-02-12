@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial;
+  background-color: rgb(244, 243, 243);
+  padding-top: 80px;
+  padding-left: 95px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.light-pink {
+  background-color: lightpink;
+}
+.light-blue {
+  background-color: lightblue;
+}
+.light-green {
+  background-color: lightgreen;
+}
+
+button,
+img {
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-left: 230px;
+  }
+}
