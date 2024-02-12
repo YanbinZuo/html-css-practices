@@ -10,7 +10,7 @@ export default function Header() {
           alt="hamburger menu"
         />
         <img
-          class="youtube-logo"
+          className="youtube-logo"
           title="YouTube Home"
           src="./icons/youtube-logo.svg"
           alt="youtube logo"
